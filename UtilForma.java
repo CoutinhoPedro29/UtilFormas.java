@@ -1,12 +1,27 @@
 package entidades;
+import java.util.Scanner;
 
 public class ler extends Forma
 {
-public Double getArea(){
+double raio;
+double lado;
+double area;
+int pergunta:
+System.out.pritnln("Digite 1 para círculo e 2 para quadrado");
+pergunta=nextInt();
+if(pergunta==1)
+{
+lado=nextDouble();
+area=lado*lado;}
+else{
+raio=nextDouble();
+area=3.14*raio*raio;}
+getArea(area);
+
+public Double getArea(area){
     
-    public circ(Double raio);
- public quad(Double rai);
-System.out.println(rai);
-System.out.println(raio);
+   
+System.out.println(area);
+
 }
 }
